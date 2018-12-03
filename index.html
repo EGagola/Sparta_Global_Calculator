@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/master.css">
+    <script type="text/javascript" src="./js/index.js">
+
+    </script>
+  </head>
+  <body>
+    <div class="Calculator">
+      <form name="calc1">
+
+
+        <div class="input1">
+          <input id="screen1" type="number" name="screen1"><br>
+          <input type="button" name="button9" value=9 onclick="calc1.screen1.value += '9'">
+          <input type="button" name="button8" value=8 onclick="calc1.screen1.value += '8'">
+          <input type="button" name="button7" value=7 onclick="calc1.screen1.value += '7'"><br>
+          <input type="button" name="button6" value=6 onclick="calc1.screen1.value += '6'">
+          <input type="button" name="button5" value=5 onclick="calc1.screen1.value += '5'">
+          <input type="button" name="button4" value=4 onclick="calc1.screen1.value += '4'"><br>
+          <input type="button" name="button3" value=3 onclick="calc1.screen1.value += '3'">
+          <input type="button" name="button2" value=2 onclick="calc1.screen1.value += '2'">
+          <input type="button" name="button1" value=1 onclick="calc1.screen1.value += '1'"><br>
+          <input type="button" name="button0" value=0 onclick="calc1.screen1.value += '0'">
+        </div>
+      </form>
+      <div class="input2">
+        <input id="screen2" type="number" name="screen2"> <br>
+        <input type="button" name="button9" value=9 onclick="screen2Val(9)">
+        <input type="button" name="button8" value=8 onclick="screen2Val(8)">
+        <input type="button" name="button7" value=7 onclick="screen2Val(7)"><br>
+        <input type="button" name="button6" value=6 onclick="screen2Val(6)">
+        <input type="button" name="button5" value=5 onclick="screen2Val(5)">
+        <input type="button" name="button4" value=4 onclick="screen2Val(4)"><br>
+        <input type="button" name="button3" value=3 onclick="screen2Val(3)">
+        <input type="button" name="button2" value=2 onclick="screen2Val(2)">
+        <input type="button" name="button1" value=1 onclick="screen2Val(1)"><br>
+        <input type="button" name="button0" value=0 onclick="screen2Val(0)">
+      </div>
+      <div class="result1">
+        <input type="button" name="button+" value=+ onclick="sumNums()">
+        <input type="button" name="button-" value=- onclick="subNums()">
+        <input type="button" name="button*" value=* onclick="timesNums()">
+        <input type="button" name="button/" value=/ onclick="divNums()">
+      </div>
+    </div>
+  </body>
+</html>

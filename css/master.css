@@ -1,0 +1,13 @@
+#screen {
+  text-align: right;
+}
+.Calculator{
+  display: flex;
+  width: 60%;
+}
+.input1{
+  width: 33%;
+}
+.input2{
+  width: 33%;
+}
